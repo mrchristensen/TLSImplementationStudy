@@ -1,0 +1,80 @@
+depth=2 C = US, O = Internet Security Research Group, CN = ISRG Root X1
+verify return:1
+depth=1 C = US, O = Let's Encrypt, CN = R3
+verify return:1
+depth=0 CN = *.wikipedia.org
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:CN = *.wikipedia.org
+   i:C = US, O = Let's Encrypt, CN = R3
+ 1 s:C = US, O = Let's Encrypt, CN = R3
+   i:C = US, O = Internet Security Research Group, CN = ISRG Root X1
+ 2 s:C = US, O = Internet Security Research Group, CN = ISRG Root X1
+   i:O = Digital Signature Trust Co., CN = DST Root CA X3
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIHCDCCBfCgAwIBAgISA5UvRmne5NIZNX/wJ2r6/gnLMA0GCSqGSIb3DQEBCwUA
+MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+EwJSMzAeFw0yMTA5MTMwODAyMzdaFw0yMTEyMTIwODAyMzZaMBoxGDAWBgNVBAMM
+Dyoud2lraXBlZGlhLm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEBplv28
+v+lcvF8x7a2gHKHxpyip31ocz/9oksRgNlIvFGq/W6mTN+eE5bZYw/CtZVAD4qlF
+/1xJ5hknkEuhxYajggT5MIIE9TAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYI
+KwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFG84YNVQ
+yanzpaHiMSg8oM7WsW2XMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLG
+MFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iu
+b3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvMIICxQYDVR0R
+BIICvDCCAriCESoubS5tZWRpYXdpa2kub3JnghEqLm0ud2lraWJvb2tzLm9yZ4IQ
+Ki5tLndpa2lkYXRhLm9yZ4IRKi5tLndpa2ltZWRpYS5vcmeCECoubS53aWtpbmV3
+cy5vcmeCESoubS53aWtpcGVkaWEub3JnghEqLm0ud2lraXF1b3RlLm9yZ4ISKi5t
+Lndpa2lzb3VyY2Uub3JnghMqLm0ud2lraXZlcnNpdHkub3JnghIqLm0ud2lraXZv
+eWFnZS5vcmeCEioubS53aWt0aW9uYXJ5Lm9yZ4IPKi5tZWRpYXdpa2kub3JnghYq
+LnBsYW5ldC53aWtpbWVkaWEub3Jngg8qLndpa2lib29rcy5vcmeCDioud2lraWRh
+dGEub3Jngg8qLndpa2ltZWRpYS5vcmeCGSoud2lraW1lZGlhZm91bmRhdGlvbi5v
+cmeCDioud2lraW5ld3Mub3Jngg8qLndpa2lwZWRpYS5vcmeCDyoud2lraXF1b3Rl
+Lm9yZ4IQKi53aWtpc291cmNlLm9yZ4IRKi53aWtpdmVyc2l0eS5vcmeCECoud2lr
+aXZveWFnZS5vcmeCECoud2lrdGlvbmFyeS5vcmeCFCoud21mdXNlcmNvbnRlbnQu
+b3Jngg1tZWRpYXdpa2kub3JnggZ3Lndpa2mCDXdpa2lib29rcy5vcmeCDHdpa2lk
+YXRhLm9yZ4INd2lraW1lZGlhLm9yZ4IXd2lraW1lZGlhZm91bmRhdGlvbi5vcmeC
+DHdpa2luZXdzLm9yZ4INd2lraXBlZGlhLm9yZ4INd2lraXF1b3RlLm9yZ4IOd2lr
+aXNvdXJjZS5vcmeCD3dpa2l2ZXJzaXR5Lm9yZ4IOd2lraXZveWFnZS5vcmeCDndp
+a3Rpb25hcnkub3JnghJ3bWZ1c2VyY29udGVudC5vcmcwTAYDVR0gBEUwQzAIBgZn
+gQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAmBggrBgEFBQcCARYaaHR0cDovL2Nwcy5s
+ZXRzZW5jcnlwdC5vcmcwggEGBgorBgEEAdZ5AgQCBIH3BIH0APIAdwBElGUusO7O
+r8RAB9io/ijA2uaCvtjLMbU/0zOWtbaBqAAAAXveZOAdAAAEAwBIMEYCIQCzYIJs
+cXtKJ5XP5wYwc917Tbu3DHR9N3oZVEvg0KuwmgIhAKOWB1Jee6v04tHc8Bw3nbCW
+7fiYdu74IQNf5uNLxRJfAHcA9lyUL9F3MCIUVBgIMJRWjuNNExkzv98MLyALzE7x
+ZOMAAAF73mTgJgAABAMASDBGAiEA4DOX09BLtQKmKIpwDZxUxqUtX2byb5Fs3vJN
+4LNHSqoCIQDWJCRpUNuMhDmm+nJqrNzPAcCZ12MA7ev3gbMtwl11mjANBgkqhkiG
+9w0BAQsFAAOCAQEAjz2Dyz35QE3LxGVr8EYdFFXJVsYy9lMxKxWrM9KcEpvNgMzl
+2e8cQptWJGruR98haE4q17Jrb+8tZ4onsgTjAwT5MNGwbLdah/hZWImy8IweNE0B
+eV7hHQF3aTkHWF5mouqhwJjvi67yKFnPchAzYI9cTbXYkpTAxWNzkHafLyQpUDy0
+swuBeW9VbD7Dg7vcOqguzKft/9zIrb+pW6UppZMgQXVLuO9tSY5Vk5EcpOJbJK8h
+PTfohIIHhIJsOfznyMs06x2PIl9FX3cqBRkhvoEAUig3ZxpQp5Tjv3u8DaMB+Xfm
++anCnC1MN9qQL4udJ91c/nMyItMb0qucc/61/w==
+-----END CERTIFICATE-----
+subject=CN = *.wikipedia.org
+
+issuer=C = US, O = Let's Encrypt, CN = R3
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ECDSA
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 4875 bytes and written 395 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+DONE

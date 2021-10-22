@@ -1,0 +1,67 @@
+depth=2 C = US, O = Google Trust Services LLC, CN = GTS Root R1
+verify return:1
+depth=1 C = US, O = Google Trust Services LLC, CN = GTS CA 1C3
+verify return:1
+depth=0 CN = gmail.com
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:CN = gmail.com
+   i:C = US, O = Google Trust Services LLC, CN = GTS CA 1C3
+ 1 s:C = US, O = Google Trust Services LLC, CN = GTS CA 1C3
+   i:C = US, O = Google Trust Services LLC, CN = GTS Root R1
+ 2 s:C = US, O = Google Trust Services LLC, CN = GTS Root R1
+   i:C = BE, O = GlobalSign nv-sa, OU = Root CA, CN = GlobalSign Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIEijCCA3KgAwIBAgIQVaU97c1dcegKAAAAAQitfDANBgkqhkiG9w0BAQsFADBG
+MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
+QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMTEwMDQwMjExNDdaFw0yMTEyMjcw
+MjExNDZaMBQxEjAQBgNVBAMTCWdtYWlsLmNvbTBZMBMGByqGSM49AgEGCCqGSM49
+AwEHA0IABORjl9T2HhtEHYMD5vfI/B42LqfWaWjIilxzmIsjvyCHVJL7t1ydoMOJ
+5dzH1xaMii/Fa5WrqTNvXsy7lePX786jggJvMIICazAOBgNVHQ8BAf8EBAMCB4Aw
+EwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUM75b
+H6EcML43Rr7cFO/Q+Wh3PsYwHwYDVR0jBBgwFoAUinR/r4XN7pXNPZzQ4kYU83E1
+HScwagYIKwYBBQUHAQEEXjBcMCcGCCsGAQUFBzABhhtodHRwOi8vb2NzcC5wa2ku
+Z29vZy9ndHMxYzMwMQYIKwYBBQUHMAKGJWh0dHA6Ly9wa2kuZ29vZy9yZXBvL2Nl
+cnRzL2d0czFjMy5kZXIwIQYDVR0RBBowGIIJZ21haWwuY29tggsqLmdtYWlsLmNv
+bTAhBgNVHSAEGjAYMAgGBmeBDAECATAMBgorBgEEAdZ5AgUDMDwGA1UdHwQ1MDMw
+MaAvoC2GK2h0dHA6Ly9jcmxzLnBraS5nb29nL2d0czFjMy9RcUZ4Ymk5TTQ4Yy5j
+cmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgBc3EOS/uarRUSxXprUVuYQN/vV
++kfcoXOUsl7m9scOygAAAXxJSTw0AAAEAwBHMEUCIQDMYWij4WMl31EAsZ76DDyG
+uD0xB68SYj2AwI6oUtSh2wIgDgKIRzu6xdy+Gteej43IVy78aPIdaEpaqaTX1YPG
+w5EAdgD2XJQv0XcwIhRUGAgwlFaO400TGTO/3wwvIAvMTvFk4wAAAXxJSTtRAAAE
+AwBHMEUCIQDozrKV1ILFd88w7e9RtuixTFaq4hYP4cLkFFadfaLtDAIgTY1LAlqc
+PhD/WF8DsNgSWhdtx6lehZNH+pfllTkkHhMwDQYJKoZIhvcNAQELBQADggEBAByM
+sPMD8AH2nHcIxZUKYtBZmzmtBjKkUjy/Ux2R5dQMgVhzzAL5AiD3eb39HgXN+Daq
+ES91EAnmvVEstZ/4tcrw9tKq6YoNEjjjAHhabwf6PM+tvcUz5Nm+0QJMElYqlZoZ
+F2Qr0A4LSpVJD2h8dyYoaQ7jGbUlOhtOnE3rWaPvWO2rAXV9hhjWnAx1qYcGzY4A
+0UHviwWs6cAWE5StNZmFUwHvpjkiCVPzJSUv5WPsTVnrWOT2frt+lI5RTfb9xtXJ
+wXCOgTSIWtvGhilkpmieq3zk2sJwqd3ZCCOTxL3rkIj+X6ED0qKaLZXHuiGDlfBK
+bcRMo87+181A7RxUPQM=
+-----END CERTIFICATE-----
+subject=CN = gmail.com
+
+issuer=C = US, O = Google Trust Services LLC, CN = GTS CA 1C3
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ECDSA
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 4297 bytes and written 391 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+DONE

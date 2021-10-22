@@ -1,0 +1,73 @@
+depth=2 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert High Assurance EV Root CA
+verify return:1
+depth=1 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 Extended Validation Server CA
+verify return:1
+depth=0 businessCategory = Private Organization, jurisdictionC = US, jurisdictionST = Washington, serialNumber = 602 290 773, C = US, ST = Washington, L = Bellevue, O = Valve Corp, CN = store.steampowered.com
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:businessCategory = Private Organization, jurisdictionC = US, jurisdictionST = Washington, serialNumber = 602 290 773, C = US, ST = Washington, L = Bellevue, O = Valve Corp, CN = store.steampowered.com
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 Extended Validation Server CA
+ 1 s:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 Extended Validation Server CA
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert High Assurance EV Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGAzCCBOugAwIBAgIQDCreY1G3uvdBo2NsLRkfqzANBgkqhkiG9w0BAQsFADB1
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMTQwMgYDVQQDEytEaWdpQ2VydCBTSEEyIEV4dGVuZGVk
+IFZhbGlkYXRpb24gU2VydmVyIENBMB4XDTIxMDEwNTAwMDAwMFoXDTIyMDEwMzIz
+NTk1OVowgdIxHTAbBgNVBA8MFFByaXZhdGUgT3JnYW5pemF0aW9uMRMwEQYLKwYB
+BAGCNzwCAQMTAlVTMRswGQYLKwYBBAGCNzwCAQITCldhc2hpbmd0b24xFDASBgNV
+BAUTCzYwMiAyOTAgNzczMQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3Rv
+bjERMA8GA1UEBxMIQmVsbGV2dWUxEzARBgNVBAoTClZhbHZlIENvcnAxHzAdBgNV
+BAMTFnN0b3JlLnN0ZWFtcG93ZXJlZC5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMB
+BwNCAAQuZxQP8qB7kUd5PT/vUNwtAiUEyWX8Or3HXTw4M+p3E8nIaYQkF/2NS7D1
+1NLMU/Bjv4zlYRQqz6mLVMlm/R5Ro4IC+jCCAvYwHwYDVR0jBBgwFoAUPdNQpdag
+re7zSmAKZdMh1Pj41g8wHQYDVR0OBBYEFOMuR0H44xkETCWUI3PpT62HAzSFMCEG
+A1UdEQQaMBiCFnN0b3JlLnN0ZWFtcG93ZXJlZC5jb20wDgYDVR0PAQH/BAQDAgeA
+MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjB1BgNVHR8EbjBsMDSgMqAw
+hi5odHRwOi8vY3JsMy5kaWdpY2VydC5jb20vc2hhMi1ldi1zZXJ2ZXItZzMuY3Js
+MDSgMqAwhi5odHRwOi8vY3JsNC5kaWdpY2VydC5jb20vc2hhMi1ldi1zZXJ2ZXIt
+ZzMuY3JsMEoGA1UdIARDMEEwNgYJYIZIAYb9bAIBMCkwJwYIKwYBBQUHAgEWG2h0
+dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAHBgVngQwBATCBiAYIKwYBBQUHAQEE
+fDB6MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wUgYIKwYB
+BQUHMAKGRmh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFNIQTJF
+eHRlbmRlZFZhbGlkYXRpb25TZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/BAIwADCCAQQG
+CisGAQQB1nkCBAIEgfUEgfIA8AB1ACl5vvCeOTkh8FZzn2Old+W+V32cYAr4+U1d
+JlwlXceEAAABdtOtyTYAAAQDAEYwRAIgAYv3us5NQ8D72ksJCmHOU/16M63vcKew
+5jfeOzvboboCIG2p+PixVBOGqCqhO/AZPFtcg80+AcECn+5FpB1YltICAHcAIkVF
+B1lVJFaWP6Ev8fdthuAjJmOtwEt/XcaDXG7iDwIAAAF2063JfQAABAMASDBGAiEA
+lV7TNGjwUXZ286bO7J57Jw8keVp7/SacOE/xyCt3S2ECIQDAs9m+VTCLZX/MHThl
+3AgBtlY9+F/QzhBn64fexZVRrzANBgkqhkiG9w0BAQsFAAOCAQEAO6fcCGS9z8GJ
+rvenRw8cPeD6fuTu8hbKbrpqGPBmIWMxlB30XxLJ6WdCkqPUZWCKlLVGbZjsGrFi
+azJwlz+1J6oTOPMHYp37pM+52500oyRE4gxOpwffbYh9hUGiXcbmgRKK/82clrmo
+6maT6Gnyp07yS5cF7KtEP5BrKshErQRkVvgzam5zPB3bUYK41kPDSaSTgeKwpylR
+XStf6xozPIyjqmRAo8KblS3BBdjHuLdKS8BafxZCDZvbSWMeicntMMUCFXArgjuh
+1hm79K6m8zUx9ULAZwykS3v/1PjgiuG1jo584lxluErjjXCbAuP4FSyV1xL2Clys
+atU0jASAvg==
+-----END CERTIFICATE-----
+subject=businessCategory = Private Organization, jurisdictionC = US, jurisdictionST = Washington, serialNumber = 602 290 773, C = US, ST = Washington, L = Bellevue, O = Valve Corp, CN = store.steampowered.com
+
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 Extended Validation Server CA
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ECDSA
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 3143 bytes and written 404 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+DONE

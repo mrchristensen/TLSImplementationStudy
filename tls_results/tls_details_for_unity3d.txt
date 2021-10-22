@@ -1,0 +1,100 @@
+depth=2 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+verify return:1
+depth=1 C = US, O = DigiCert Inc, CN = DigiCert SHA2 Secure Server CA
+verify return:1
+depth=0 C = DK, L = Copenhagen, O = Unity Technologies ApS, CN = *.unity3d.com
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:C = DK, L = Copenhagen, O = Unity Technologies ApS, CN = *.unity3d.com
+   i:C = US, O = DigiCert Inc, CN = DigiCert SHA2 Secure Server CA
+ 1 s:C = US, O = DigiCert Inc, CN = DigiCert SHA2 Secure Server CA
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+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
+-----END CERTIFICATE-----
+subject=C = DK, L = Copenhagen, O = Unity Technologies ApS, CN = *.unity3d.com
+
+issuer=C = US, O = DigiCert Inc, CN = DigiCert SHA2 Secure Server CA
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 3531 bytes and written 439 bytes
+Verification: OK
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: 30A39016A2BC691126E44A23B90443ABC3910D66706FF0F436DD8C44A85B36B1
+    Session-ID-ctx: 
+    Master-Key: 8B061AD012FF96E7EC36EA79C939A99060502BA5AE662015D372436D8D07AC93E76F6257A2F1E1FEABDC48029ADF2AA1
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 83100 (seconds)
+    TLS session ticket:
+    0000 - 00 00 05 9b e7 c2 9f 38-b5 1e 39 57 6e d2 ea b8   .......8..9Wn...
+    0010 - c1 d2 42 5d 59 7c 13 31-b6 9b 45 c2 f4 05 5c 6a   ..B]Y|.1..E...\j
+    0020 - b7 e5 0b a3 27 31 a7 9f-7c c4 fd 36 6d 8c 1a 81   ....'1..|..6m...
+    0030 - 3b a5 e7 28 bf 5f 58 6e-1f 1b e3 8f 61 1e 6d 24   ;..(._Xn....a.m$
+    0040 - 9e 79 d8 48 3e 0c 26 62-59 7d c9 bf d5 40 05 5e   .y.H>.&bY}...@.^
+    0050 - fa e6 fa 19 ff dc 53 ed-7d 33 f1 41 ed 40 7d 30   ......S.}3.A.@}0
+    0060 - 4f d4 d2 6f af 72 63 6b-c6 46 d0 6f 17 a7 3e c0   O..o.rck.F.o..>.
+    0070 - 31 f8 65 a8 99 a0 93 89-34 51 bc 9f c0 3b a0 49   1.e.....4Q...;.I
+    0080 - 2c a7 42 60 29 7f 92 b8-1b 3f e3 8f 5f d9 ba 80   ,.B`)....?.._...
+    0090 - 2a 1a a8 9b c5 0c ab b4-46 62 e4 fd 4c f4 2f d8   *.......Fb..L./.
+    00a0 - 34 f7 25 ad 98 02 a0 5d-36 aa cd 01 9f 80 b8 e6   4.%....]6.......
+
+    Start Time: 1634930444
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+DONE

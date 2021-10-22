@@ -1,0 +1,92 @@
+depth=2 C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+verify return:1
+depth=1 C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2014 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1M
+verify return:1
+depth=0 C = US, ST = New York, L = New York, jurisdictionC = US, jurisdictionST = Delaware, O = JPMorgan Chase and Co., businessCategory = Private Organization, serialNumber = 691011, CN = www.chase.com
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:C = US, ST = New York, L = New York, jurisdictionC = US, jurisdictionST = Delaware, O = JPMorgan Chase and Co., businessCategory = Private Organization, serialNumber = 691011, CN = www.chase.com
+   i:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2014 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1M
+ 1 s:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2014 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1M
+   i:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+ 2 s:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+   i:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIHJTCCBg2gAwIBAgIPaQPTAWlIBGApmDrD0ULRMA0GCSqGSIb3DQEBCwUAMIG6
+MQswCQYDVQQGEwJVUzEWMBQGA1UEChMNRW50cnVzdCwgSW5jLjEoMCYGA1UECxMf
+U2VlIHd3dy5lbnRydXN0Lm5ldC9sZWdhbC10ZXJtczE5MDcGA1UECxMwKGMpIDIw
+MTQgRW50cnVzdCwgSW5jLiAtIGZvciBhdXRob3JpemVkIHVzZSBvbmx5MS4wLAYD
+VQQDEyVFbnRydXN0IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gTDFNMB4XDTIx
+MDIxODEwNTYzNFoXDTIyMDIxODEwNTYzM1owgcwxCzAJBgNVBAYTAlVTMREwDwYD
+VQQIEwhOZXcgWW9yazERMA8GA1UEBxMITmV3IFlvcmsxEzARBgsrBgEEAYI3PAIB
+AxMCVVMxGTAXBgsrBgEEAYI3PAIBAhMIRGVsYXdhcmUxHzAdBgNVBAoTFkpQTW9y
+Z2FuIENoYXNlIGFuZCBDby4xHTAbBgNVBA8TFFByaXZhdGUgT3JnYW5pemF0aW9u
+MQ8wDQYDVQQFEwY2OTEwMTExFjAUBgNVBAMTDXd3dy5jaGFzZS5jb20wggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDj0GOPASfNc6dBgCbVx1/8udS4lxHz
+JRpQDRvpxvPuqso+Gw48GZF15ALbIdwILJTxoRGnWrK3RrDVC079IKQ8BZVMnBRQ
+w7DWVqS4nMSqAdxtZMWIKcowRqv7Z0QyrfvFEkZhCSSJ+7AcfpD6Muh6DzlxDRaL
+VFE+fDp04C0OMnhIQ9Uh8XVqKFnRVRM0U7J/90ThZkLPlhiVW4UF29gLy3IYk3S+
+QQwj/baxvJkZyGXDbz7RV9mjr1/HgdMuFMC2lomkY4KMCs8f8XzKqiGon8AmD6Fc
+Y/P0N3eckAS3wSTGrtwQBwWVT2swMuIOENFL9GWFJXXEx6kYvTfcjjkvAgMBAAGj
+ggMSMIIDDjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSlSrtX7Sy7dG11svkI3tkD
+AyLSrzAfBgNVHSMEGDAWgBTD99C1KjCtrw2RIXA5VN28iXDHOjBoBggrBgEFBQcB
+AQRcMFowIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVudHJ1c3QubmV0MDMGCCsG
+AQUFBzAChidodHRwOi8vYWlhLmVudHJ1c3QubmV0L2wxbS1jaGFpbjI1Ni5jZXIw
+MwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5lbnRydXN0Lm5ldC9sZXZlbDFt
+LmNybDAjBgNVHREEHDAagg13d3cuY2hhc2UuY29tggljaGFzZS5jb20wDgYDVR0P
+AQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBLBgNVHSAE
+RDBCMDcGCmCGSAGG+mwKAQIwKTAnBggrBgEFBQcCARYbaHR0cHM6Ly93d3cuZW50
+cnVzdC5uZXQvcnBhMAcGBWeBDAEBMIIBfAYKKwYBBAHWeQIEAgSCAWwEggFoAWYA
+dQBRo7D1/QF5nFZtuDd4jwykeswbJ8v3nohCmg3+1IsF5QAAAXe0yM92AAAEAwBG
+MEQCIAi7dNuJKumdCEJGQd3lmjWCXUcjIbTYivzm1bsU2jG1AiA8JYYK4Jkv8waO
+5j2v7LVr95pzj5HjzU56nSGI9fdiQQB1AFYUBpov18Ls0/XhvUSyPsdGdrm8mRFc
+wO+UmFXWidDdAAABd7TIz4gAAAQDAEYwRAIgE/JgRmRn/CYd35gPJs+yq49u7IZs
+/A6orNnVaU/ZcPsCICA3MY+OOmqo4F8mMiHCnsM5ojH4hrme5NTHxMhxOCjNAHYA
+RqVV63X6kSAwtaKJafTzfREsQXS+/Um4havy/HD+bUcAAAF3tMjRQwAABAMARzBF
+AiEAiw4oEbaA9V/poPpeKKOghaxrp+x7238pN3VGI14L/LECIHOcIFgtuFf9lrrH
+bCej0NbcfUkyOfVwRloZww9fmReiMA0GCSqGSIb3DQEBCwUAA4IBAQByA622vMa5
+6v8Xd7HYGOqTT6RyZ0lIinu3PqoaKlfytcRQEtDMFfk39N0NRSs0hWe9yje/DGuH
+aXFqXdAaManKi8C2UaMQi773jFoqnwjGT8opXe1Yzqtn9yXiePZ0gMP3m9Vxe8kZ
+YwQoz27tr0+6IHrqESP4ChBOjMpcBJzD1avkF+hhNkn5QsaynXftuojlROBn0X/G
+J8Hc0adE2OXkXUeuYj8hHp58uJJSGBtd8UkWD6HjaLJu1TDEMk4qnC7M+aVH/4a0
+2RLTGYD9zn1m+Z3olAm119yci7k1Ew9aUeKRK/J/5z7Kj6DilNAW/xUkJ/vz/hZK
+tk0PjgDKDJCb
+-----END CERTIFICATE-----
+subject=C = US, ST = New York, L = New York, jurisdictionC = US, jurisdictionST = Delaware, O = JPMorgan Chase and Co., businessCategory = Private Organization, serialNumber = 691011, CN = www.chase.com
+
+issuer=C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2014 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1M
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 4767 bytes and written 437 bytes
+Verification: OK
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: 32E83402862CA8E61AB13CC7EF755167B289915C55F681B1D951DF7ABE05A07F
+    Session-ID-ctx: 
+    Master-Key: 04932D2172B835F21292F0EB4E5CBA66145FFD347FEBB5A23C246AC01001A0C8965E00CE51E9349B5E6E28A40ABD4E37
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1634930444
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: yes
+---
+DONE

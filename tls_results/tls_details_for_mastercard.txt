@@ -1,0 +1,111 @@
+depth=2 C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+verify return:1
+depth=1 C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2012 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1K
+verify return:1
+depth=0 C = BE, L = Waterloo, O = MasterCard International Incorporated, CN = mastercard.com
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:C = BE, L = Waterloo, O = MasterCard International Incorporated, CN = mastercard.com
+   i:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2012 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1K
+ 1 s:O = Entrust.net, OU = www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), OU = (c) 1999 Entrust.net Limited, CN = Entrust.net Certification Authority (2048)
+   i:O = Entrust.net, OU = www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), OU = (c) 1999 Entrust.net Limited, CN = Entrust.net Certification Authority (2048)
+ 2 s:C = US, O = "Entrust, Inc.", OU = www.entrust.net/rpa is incorporated by reference, OU = "(c) 2009 Entrust, Inc.", CN = Entrust Certification Authority - L1C
+   i:O = Entrust.net, OU = www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), OU = (c) 1999 Entrust.net Limited, CN = Entrust.net Certification Authority (2048)
+ 3 s:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2012 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1K
+   i:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+ 4 s:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+   i:C = US, O = "Entrust, Inc.", OU = www.entrust.net/CPS is incorporated by reference, OU = "(c) 2006 Entrust, Inc.", CN = Entrust Root Certification Authority
+ 5 s:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2012 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1K
+   i:C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGrzCCBZegAwIBAgIQB7xddV7L15np2N7kKJbxizANBgkqhkiG9w0BAQsFADCB
+ujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT
+H1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy
+MDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG
+A1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y
+MTA2MDQxNzQ2MjhaFw0yMjA2MDQxNzQ2MjhaMGkxCzAJBgNVBAYTAkJFMREwDwYD
+VQQHEwhXYXRlcmxvbzEuMCwGA1UEChMlTWFzdGVyQ2FyZCBJbnRlcm5hdGlvbmFs
+IEluY29ycG9yYXRlZDEXMBUGA1UEAxMObWFzdGVyY2FyZC5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvpSYPRLM9xmZVstviHVngsVJnUCZDtkHj
+LotWyF3siebkiNWtyhqIWAJGmQrunaFD/PASj2BBXTKmwYjnhJuojaKlQAzWUWle
+/552B/TJ279Fo3BJ97Eza6J9Oi+P47/i6Fd8s4+MEls2hPJqeNVgEGL15wd1K15g
+NOR5doRqbvr6h7OKNX/DPiheiOMHDuvN0AhehJTj8M5Jv5HH7k139aQFVF2V8r4D
+11yHBzH5kYW1D1Twrkh4dMyAtAA6BluOOBWKyuooRYrlyJio2E3HadZgY9SN3u45
+AgRh7EjAWA9WDn2lUDzfMVIXO01VyIhXT5iph/VJXHvan6o0SBxBAgMBAAGjggL/
+MIIC+zAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRxz3FocQAo0hqYasZ6iSOPUnkT
+tzAfBgNVHSMEGDAWgBSConB03bxTP8971PfNf6dgxgpMvzBoBggrBgEFBQcBAQRc
+MFowIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVudHJ1c3QubmV0MDMGCCsGAQUF
+BzAChidodHRwOi8vYWlhLmVudHJ1c3QubmV0L2wxay1jaGFpbjI1Ni5jZXIwMwYD
+VR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5lbnRydXN0Lm5ldC9sZXZlbDFrLmNy
+bDAZBgNVHREEEjAQgg5tYXN0ZXJjYXJkLmNvbTAOBgNVHQ8BAf8EBAMCBaAwEwYD
+VR0lBAwwCgYIKwYBBQUHAwEwTAYDVR0gBEUwQzA3BgpghkgBhvpsCgEFMCkwJwYI
+KwYBBQUHAgEWG2h0dHBzOi8vd3d3LmVudHJ1c3QubmV0L3JwYTAIBgZngQwBAgIw
+ggF8BgorBgEEAdZ5AgQCBIIBbASCAWgBZgB1AFYUBpov18Ls0/XhvUSyPsdGdrm8
+mRFcwO+UmFXWidDdAAABedgiLeEAAAQDAEYwRAIgToyLVSuwzjyReAvi00LTYSc6
+rPVh+AiJwJ8dIPeOoyYCICqJlk3Hmh4TvW7TUgHRNXnP7keknyqojfmKtzpJG4+H
+AHUA36Veq2iCTx9sre64X04+WurNohKkal6OOxLAIERcKnMAAAF52CItwAAABAMA
+RjBEAiAL0G37S6g9UIB0kgb28fSZFSe2eiAtyorOcyWBmgjAjAIgORUhJPkRLZm0
+Vk6GUdIRFUvXFrAh4Y6F/w0z9i8Dsb8AdgBGpVXrdfqRIDC1oolp9PN9ESxBdL79
+SbiFq/L8cP5tRwAAAXnYIi9OAAAEAwBHMEUCIQCHZIrtF+dPxBRql/S2Lhw0+GwA
+4kIjQoFFqqT5kxmc7AIgLZhjRGIvXyKef2pIrGX4o/E80aTi/33B8qqlriEXw8Mw
+DQYJKoZIhvcNAQELBQADggEBABJVi5M4M8imS8iTpp5zQ+gsl3POKyXTrvvZodfK
+QCAxLtLyO104jraRSQxBbx443V60Szjw2WyR1vlv7aDGLDi8lLgS8WVhvNhJA2FK
+i2a0vtMC/RMOfj4VTBlfllCy1NuA0o5glQXdKTk445mw0RHOuJ2ZCQtnC2zlEy2k
+vLd1K4xcdvraUmnAv9Ma06C39jsCtLTs/Xv+fbhUZZiYcqUZO1Ghf99O5W/Vk9d8
+YbmMuzzqr+/7tts8Qg7k0nDxlI6JrSUql7xnC6CPZ6rowrbstd8U7wciErGpbO8V
+CnWDux4BdE1pGOR01xqD4W2FfNY3dbqZIHmZOiIrt2F6oeo=
+-----END CERTIFICATE-----
+subject=C = BE, L = Waterloo, O = MasterCard International Incorporated, CN = mastercard.com
+
+issuer=C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2012 Entrust, Inc. - for authorized use only", CN = Entrust Certification Authority - L1K
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 8573 bytes and written 442 bytes
+Verification: OK
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: E0A0F10A3BE5CFBB210E31528A206E3CCC586B3065D9A8D5FCBEC54D819FB770
+    Session-ID-ctx: 
+    Master-Key: 36D5DFFBD2F1B92E2873953066EABA2D1CBE98721D96C81038AC14F701764D3714B627D5F4A6F7A84D6955286B8F7C5D
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 8f 97 10 ca ec 80 30 66-8b d2 16 bf 81 1f 86 30   ......0f.......0
+    0010 - a7 32 43 1f 89 d8 42 16-31 cc 2e 73 16 89 93 e9   .2C...B.1..s....
+    0020 - 41 51 50 11 11 eb fd a3-91 83 c7 6d 3a 1d 39 28   AQP........m:.9(
+    0030 - 85 7f 45 2e 66 57 e5 72-24 3c 04 0e 7e 46 9e ad   ..E.fW.r$<..~F..
+    0040 - 47 62 84 10 0b 04 19 f9-59 b5 25 61 99 cd 4b e7   Gb......Y.%a..K.
+    0050 - 16 74 33 32 19 58 46 50-00 c1 c2 c6 a3 a9 5d ca   .t32.XFP......].
+    0060 - 13 99 ca 3b 97 0b c9 61-c2 97 1d fe fd c6 01 16   ...;...a........
+    0070 - 87 35 83 92 ca cc 79 f0-06 a6 c7 a4 4e 34 ca d4   .5....y.....N4..
+    0080 - 38 26 f1 33 96 cf e6 4d-2f e6 f3 da 58 55 ee bb   8&.3...M/...XU..
+    0090 - 0b 73 c6 c6 a9 ff 18 c2-f5 95 c9 d8 07 6c de 81   .s...........l..
+    00a0 - 5c 90 09 f8 b3 6a 0f 88-48 c4 a7 a7 b0 0d a2 8c   \....j..H.......
+    00b0 - b6 73 8d 0b 8f 91 ae 76-d8 3c f6 f9 c6 2e 06 42   .s.....v.<.....B
+    00c0 - 02 4f bb 3c 4a 4f 32 71-7e 70 fe 37 55 25 41 6b   .O.<JO2q~p.7U%Ak
+
+    Start Time: 1634930444
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+DONE

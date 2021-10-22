@@ -1,0 +1,91 @@
+depth=2 C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", CN = Go Daddy Root Certificate Authority - G2
+verify return:1
+depth=1 C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", OU = http://certs.godaddy.com/repository/, CN = Go Daddy Secure Certificate Authority - G2
+verify return:1
+depth=0 OU = Domain Control Validated, CN = *.ksl.com
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:OU = Domain Control Validated, CN = *.ksl.com
+   i:C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", OU = http://certs.godaddy.com/repository/, CN = Go Daddy Secure Certificate Authority - G2
+ 1 s:C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", OU = http://certs.godaddy.com/repository/, CN = Go Daddy Secure Certificate Authority - G2
+   i:C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", CN = Go Daddy Root Certificate Authority - G2
+ 2 s:C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", CN = Go Daddy Root Certificate Authority - G2
+   i:C = US, O = "The Go Daddy Group, Inc.", OU = Go Daddy Class 2 Certification Authority
+ 3 s:C = US, O = "The Go Daddy Group, Inc.", OU = Go Daddy Class 2 Certification Authority
+   i:C = US, O = "The Go Daddy Group, Inc.", OU = Go Daddy Class 2 Certification Authority
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGojCCBYqgAwIBAgIJANe/EwVutyqbMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYD
+VQQGEwJVUzEQMA4GA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTEa
+MBgGA1UEChMRR29EYWRkeS5jb20sIEluYy4xLTArBgNVBAsTJGh0dHA6Ly9jZXJ0
+cy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5LzEzMDEGA1UEAxMqR28gRGFkZHkgU2Vj
+dXJlIENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMB4XDTIxMDUxMTE0MjU0MVoX
+DTIyMDYxMjE0MjU0MVowNzEhMB8GA1UECxMYRG9tYWluIENvbnRyb2wgVmFsaWRh
+dGVkMRIwEAYDVQQDDAkqLmtzbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDQJu/jmBwKytbLp4mxl12q2Ndg0HDWI87ZdkZHYNbyAx3hsn5OP5Ko
+k6MjbgXa9twTURtZx+ePxZ7uJ5zIkGgt9lRVxZ79K4FP2LHkb3McGk9FNfeeym+y
+ooUYHXLLbphC9z4YATtV3L99w7uTbca/KNKbnNrIQ6gYlqHl4nYhpOI3M5PXCoDa
+o7PD1KahcCTXsIj7YmXLlQbgzxOvkzHME6kVa1WZNr8DfdGnYUEUd35q+7d3HUOK
+GI1ervq0qI93AQG9ouFvmuyYXuaW4zItKFPIgmLwxAm6A8geDXawnMZiNcp7k7V/
+oYhcUG7WmAqOVZfKZSBSoAMnNHA2C55BAgMBAAGjggMxMIIDLTAMBgNVHRMBAf8E
+AjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAOBgNVHQ8BAf8EBAMC
+BaAwOAYDVR0fBDEwLzAtoCugKYYnaHR0cDovL2NybC5nb2RhZGR5LmNvbS9nZGln
+MnMxLTI5NDEuY3JsMF0GA1UdIARWMFQwSAYLYIZIAYb9bQEHFwEwOTA3BggrBgEF
+BQcCARYraHR0cDovL2NlcnRpZmljYXRlcy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5
+LzAIBgZngQwBAgEwdgYIKwYBBQUHAQEEajBoMCQGCCsGAQUFBzABhhhodHRwOi8v
+b2NzcC5nb2RhZGR5LmNvbS8wQAYIKwYBBQUHMAKGNGh0dHA6Ly9jZXJ0aWZpY2F0
+ZXMuZ29kYWRkeS5jb20vcmVwb3NpdG9yeS9nZGlnMi5jcnQwHwYDVR0jBBgwFoAU
+QMK9J47MNIMwojPX+2yz8LQsgM4wHQYDVR0RBBYwFIIJKi5rc2wuY29tggdrc2wu
+Y29tMB0GA1UdDgQWBBQZYpVbB4Dhcp139of28f9h6vSvgTCCAXwGCisGAQQB1nkC
+BAIEggFsBIIBaAFmAHYAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QA
+AAF5W9G/JQAABAMARzBFAiAzxs6baMEgZk20JW5/UrnCj1YzDgo5CjNtNpn+bl+J
+swIhAKwWpjOFTSxbf40r+hFXLwDOGuKGdbsT80daevx8JnNDAHUAIkVFB1lVJFaW
+P6Ev8fdthuAjJmOtwEt/XcaDXG7iDwIAAAF5W9HAZQAABAMARjBEAiAvYSvR+agH
+40mkrb0TvyyiTE7w8lMW5sNQuF8vHfbdnQIgUAqycN3nkYAUIxbFqfjAt3LAJJlH
+TrX1XuEmLpolNkAAdQDfpV6raIJPH2yt7rhfTj5a6s2iEqRqXo47EsAgRFwqcwAA
+AXlb0cF6AAAEAwBGMEQCIDGCU1Sl4qdfWZ/vFrFBNk4LSMhcbZ8iZWqChoLnKUd8
+AiA+XpIxnabg25SFK3X1T9ZKNTKUf42LgMPcXS5frNg1bTANBgkqhkiG9w0BAQsF
+AAOCAQEAUSFrcJWlRxBNHxj+6u05IGBlByFUuI7Lo6PiJQX5MzvY0XjzxwRmXY80
+/JsB9GgM6l7/XmaQy94wgN2uls13T+4SRKVFyRLbveZYJIBwWF2KM6JnTJQa4gch
+55ZToL5bt0DPk0XJ1KGqJNtrvvx8i0MvMRf3eSZjyi8D6K7b4jCHifVdsPkJy+RS
+OUM3bnBZc5MsL4DUeALglsw1CZQwmDcNT+cfz85KlNZ5zH/+CiduVFNIGrCKHLyw
+A87rzoCU8ykcRR0tQAosPZzZvQzwqNNJguQZ8W3Oix3EpMLGpHOO3WIGZ6ONLLfQ
+bGg7RltBHAYvucwIY3PV+w1lnGoR+g==
+-----END CERTIFICATE-----
+subject=OU = Domain Control Validated, CN = *.ksl.com
+
+issuer=C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", OU = http://certs.godaddy.com/repository/, CN = Go Daddy Secure Certificate Authority - G2
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 5641 bytes and written 435 bytes
+Verification: OK
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: E0BF13491563678D8947631D3C6BCED59EBF61C8FEC21CEDCF4AB9C08C7B9E65
+    Session-ID-ctx: 
+    Master-Key: 5B7E3114E06902CAAC6B33C0E13B7D3F570F81518208BB3FAD3E5D14C4A60D86EFD6C758E23A7D2ADDD39DA7E446308A
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1634930444
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: yes
+---
+DONE

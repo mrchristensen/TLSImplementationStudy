@@ -1,0 +1,79 @@
+depth=2 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+verify return:1
+depth=1 C = US, O = DigiCert Inc, CN = DigiCert TLS RSA SHA256 2020 CA1
+verify return:1
+depth=0 C = US, ST = Utah, L = Provo, O = Brigham Young University, CN = *.byu.edu
+verify return:1
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:C = US, ST = Utah, L = Provo, O = Brigham Young University, CN = *.byu.edu
+   i:C = US, O = DigiCert Inc, CN = DigiCert TLS RSA SHA256 2020 CA1
+ 1 s:C = US, O = DigiCert Inc, CN = DigiCert TLS RSA SHA256 2020 CA1
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIHMzCCBhugAwIBAgIQAaeojmVHRT7ThhZUov+MbTANBgkqhkiG9w0BAQsFADBP
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE
+aWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMTAyMTgwMDAwMDBa
+Fw0yMjAyMjIyMzU5NTlaMGMxCzAJBgNVBAYTAlVTMQ0wCwYDVQQIEwRVdGFoMQ4w
+DAYDVQQHEwVQcm92bzEhMB8GA1UEChMYQnJpZ2hhbSBZb3VuZyBVbml2ZXJzaXR5
+MRIwEAYDVQQDDAkqLmJ5dS5lZHUwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK
+AoICAQDlK5qZx8VfwRinJ1kzuB4sV13Qt9psXLlbeICSUKgDAmfHWcmhpoLFnous
+aUcHyG5qJQnUg7aD5PN3Gj0Ftxho7D82lVKOq3MHmpt8+NhZPBO8S2/ANT/NG6ZM
+hXInAIhqqwJjaVJ0HPWbyRgc2Urn21itgXYrZDEVx7JFMq2sG13mDXBih/JJRDer
+oke0LMZrpEu+Dog4f4v5EDfJj/ElTmyq96VckNW0a9bW+pmlm/9LPXnxck+kXSGm
+3cGneLaEkk1aZ7yR+A1vQOdNt3TA2nbVkeiZHMM6npu8EofIRxn9UzcI1D64eqnX
+jcQzjeKmxqpeBXOv2s2Drgx+25fC/qLW1TRZHtDRFkZoLtqhYNzTzHG5gG4ggdH/
+Yrd+MKoYU553EST4o1MnY8LxaU4onqguab1vKRFnD8J4oLxs/Hfn0mZePzA/EK+d
+si3XvU8bmycwzS+z7SzF4T78lAUxifbv1uuKi2rhn11JrNp9u87yOqKw0CD4bqsb
+Tm4BqjVaFHxF1um/C2HE+jef8lqEHH//xuPN6gnWwl863C7F1Nf/YCon7fr09KxO
+0DUk+s2hYr4VxcX14VUo9syyR4OHo028YIQyWyBy6cmSv1VSybgKndxmG6+lY2cG
+7Nh2dr9+b1mhPjV2fhyGkDKUhJngIlcFufErHBgpEWTYvKoijQIDAQABo4IC9TCC
+AvEwHwYDVR0jBBgwFoAUt2ui6qiqhIx56rTaD5iyxZV2ufQwHQYDVR0OBBYEFMAm
+3rpoBuHqHHofq3mlHXjubmYCMB0GA1UdEQQWMBSCCSouYnl1LmVkdYIHYnl1LmVk
+dTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMC
+MIGLBgNVHR8EgYMwgYAwPqA8oDqGOGh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9E
+aWdpQ2VydFRMU1JTQVNIQTI1NjIwMjBDQTEuY3JsMD6gPKA6hjhodHRwOi8vY3Js
+NC5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0ExLmNybDA+
+BgNVHSAENzA1MDMGBmeBDAECAjApMCcGCCsGAQUFBwIBFhtodHRwOi8vd3d3LmRp
+Z2ljZXJ0LmNvbS9DUFMwfQYIKwYBBQUHAQEEcTBvMCQGCCsGAQUFBzABhhhodHRw
+Oi8vb2NzcC5kaWdpY2VydC5jb20wRwYIKwYBBQUHMAKGO2h0dHA6Ly9jYWNlcnRz
+LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFRMU1JTQVNIQTI1NjIwMjBDQTEuY3J0MAwG
+A1UdEwEB/wQCMAAwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgApeb7wnjk5IfBW
+c59jpXflvld9nGAK+PlNXSZcJV3HhAAAAXe2+r6YAAAEAwBHMEUCICY6qxoJNMTm
+uzKoJD0akpbprv7vPW5qx+iiyJKJ5UTiAiEA0qw9R29IUL3l1htI6yFCDvn9c0ri
+OIqTxr2pfTmkH8MAdgAiRUUHWVUkVpY/oS/x922G4CMmY63AS39dxoNcbuIPAgAA
+AXe2+r6pAAAEAwBHMEUCIA5DhOpm+XmJ3g6PcwNdUc7+8du0IhXxC0llrV7UUfcQ
+AiEAzQMkCHpOJBe/ImPq7eUWnDGoWQvKJXczaeQ7LmbRz58wDQYJKoZIhvcNAQEL
+BQADggEBAI+nAyQXDIdkNk/mYWsGM89yxulKCqC4EjOdXPj2B6c/p2HLT6Jn5cMW
+hzciwy4cnybxEC+6bGG6umuEudcWrSiqKw32fdKXNQq0hp3qerTWLBTMghdabv7W
+AugFEhV2mUbT2ctZHCmPBpPkt++KkC5y+KHcLt1yLboNuZ12kVpXfbq2O3PDz5Z1
+XjS09yCPPk+cLoERBA4Bw7Miqx8hkKns/QngBE3G8lyLuLs6Tk+3XrHbTep+c7QB
+YjpIOkMVgMijS/0YvhLrdtomEBj24L4xvk5N5NR6/VbFWMvFEfH3zsBxGCNwh8tx
+mjhqel+0MasTVeQ3ZJ8OD53QfLXvLiY=
+-----END CERTIFICATE-----
+subject=C = US, ST = Utah, L = Provo, O = Brigham Young University, CN = *.byu.edu
+
+issuer=C = US, O = DigiCert Inc, CN = DigiCert TLS RSA SHA256 2020 CA1
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 3930 bytes and written 389 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 4096 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+DONE
