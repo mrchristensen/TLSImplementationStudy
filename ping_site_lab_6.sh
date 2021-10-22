@@ -4,9 +4,7 @@ mkdir -p ./tls_results
 
 echo "Establishing TLS connection with..."
 
-# Replace these sites with your list of ten sites. 
-# The top-level domain (com, edu, gov, net, etc.) should be 3 characters long b/c I'm lazy with formatting
-for site in "example.com" "google.com" "usa.gov"; do
+for site in "google.com" "gmail.com" "instagram.com" "chase.com" "byu.edu" "youtube.com" "app.clickup.com" "clickup.com" "ksl.com" "facebook.com" "store.steampowered.com" "steampowered.com" "mastercard.com" "unity3d.com" "wikipedia.org"; do
 echo ${site}
 timeout 30 openssl s_client -connect ${site}:443 &> ./tls_results/tls_details_for_${site:0:-4}.txt &
 done
