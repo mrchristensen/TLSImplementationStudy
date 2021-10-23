@@ -1,0 +1,136 @@
+mrc621@LAPTOP-JF5I6F1J:/mnt/c/WINDOWS/system32$ openssl s_client -connect pop.mail.yahoo.com:995
+CONNECTED(00000005)
+depth=2 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert High Assurance EV Root CA
+verify return:1
+depth=1 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 High Assurance Server CA
+verify return:1
+depth=0 C = US, ST = California, L = Sunnyvale, O = Oath Inc, CN = legacy.pop.mail.yahoo.com
+verify return:1
+---
+Certificate chain
+ 0 s:C = US, ST = California, L = Sunnyvale, O = Oath Inc, CN = legacy.pop.mail.yahoo.com
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 High Assurance Server CA
+ 1 s:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 High Assurance Server CA
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert High Assurance EV Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIII6TCCB9GgAwIBAgIQCcxJd6TBTUOI2Qz2Z2OF/jANBgkqhkiG9w0BAQsFADBw
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMS8wLQYDVQQDEyZEaWdpQ2VydCBTSEEyIEhpZ2ggQXNz
+dXJhbmNlIFNlcnZlciBDQTAeFw0yMTA2MjgwMDAwMDBaFw0yMTEyMjIyMzU5NTla
+MG0xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRIwEAYDVQQHEwlT
+dW5ueXZhbGUxETAPBgNVBAoTCE9hdGggSW5jMSIwIAYDVQQDExlsZWdhY3kucG9w
+Lm1haWwueWFob28uY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+qwiV58S2owbIOuEYrVAnfK0O/0igLTbiA9SicPJsnNOVgJkAHnmz9eLfOToTw8O4
+mFEtgh1h7VS3H61QhLc9XHXmMsWZFvSAKaZigv7tYVUaBXhEMf4iKMTb/icr0UGh
+0UW+BI9n91s2XlPhPxpn/0FnZwfTDeJKuPbNiZ1w2/s9Mbk9qPwZvWYX8QMgwSH4
+SQ7P/vNeelBceNfnbjs1JDgT0Nw7Ah1DsX5sjSSe3LesLHssAUgnT9qzFA1AS9OB
+JKTgtRr2KURXmyRDcPViVMeBXaJmr6D+NSJh4RmmMynBz6WX1kdQqnyPCyj0MNjO
+uvj6Ce80Uxnx82o6SqACvQIDAQABo4IFgDCCBXwwHwYDVR0jBBgwFoAUUWj/kK8C
+B3U8zNllZGKiErhZcjswHQYDVR0OBBYEFHIFuV+aD/BsVeITP9LxitD3K60WMIIC
+PQYDVR0RBIICNDCCAjCCGWxlZ2FjeS5wb3AubWFpbC55YWhvby5jb22CEnBvcC5t
+YWlsLnlhaG9vLmNvbYIUKi5wb3AubWFpbC55YWhvby5jb22CFXBvcC5iaXptYWls
+LnlhaG9vLmNvbYIVcG9wLm1haWwueWFob28uY29tLmFyghVwb3AubWFpbC55YWhv
+by5jb20uYXWCFXBvcC5tYWlsLnlhaG9vLmNvbS5icoIVcG9wLm1haWwueWFob28u
+Y29tLmhrghVwb3AubWFpbC55YWhvby5jb20ubXmCFXBvcC5tYWlsLnlhaG9vLmNv
+bS5waIIVcG9wLm1haWwueWFob28uY29tLnNnghVwb3AubWFpbC55YWhvby5jb20u
+dHeCFXBvcC5tYWlsLnlhaG9vLmNvbS52boIUcG9wLm1haWwueWFob28uY28uaWSC
+FHBvcC5tYWlsLnlhaG9vLmNvLmlughRwb3AubWFpbC55YWhvby5jby5rcoIUcG9w
+Lm1haWwueWFob28uY28udGiCFHBvcC5tYWlsLnlhaG9vLmNvLnVrghFwb3AubWFp
+bC55YWhvby5jYYIRcG9wLm1haWwueWFob28uZGWCEXBvcC5tYWlsLnlhaG9vLmZy
+ghFwb3AubWFpbC55YWhvby5pboIRcG9wLm1haWwueWFob28uaXSCE3BvcC5jb3Jy
+ZW8ueWFob28uZXOCDnBvcC55N21haWwuY29tghFwb3AuYXR0LnlhaG9vLmNvbTAO
+BgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMHUG
+A1UdHwRuMGwwNKAyoDCGLmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9zaGEyLWhh
+LXNlcnZlci1nNi5jcmwwNKAyoDCGLmh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9z
+aGEyLWhhLXNlcnZlci1nNi5jcmwwPgYDVR0gBDcwNTAzBgZngQwBAgIwKTAnBggr
+BgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMIGDBggrBgEFBQcB
+AQR3MHUwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBNBggr
+BgEFBQcwAoZBaHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0U0hB
+MkhpZ2hBc3N1cmFuY2VTZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/BAIwADCCAX0GCisG
+AQQB1nkCBAIEggFtBIIBaQFnAHUA9lyUL9F3MCIUVBgIMJRWjuNNExkzv98MLyAL
+zE7xZOMAAAF6T/tvvwAABAMARjBEAiAF58xBJE1mYUklQl8Z6s7S+Z1TGRI3I8Aq
+Owb76IDb6AIgL21WCgiKy78jWZ4SN9jl+Osp5m9v8kSTYcFHH3MHbj8AdQBc3EOS
+/uarRUSxXprUVuYQN/vV+kfcoXOUsl7m9scOygAAAXpP+3ANAAAEAwBGMEQCICgy
+LYUv/0GJt8TSbpOwXFDnSJcqBsAqnFNRQMxtDESsAiAvaSks6n8Dw3bvTi2Tzv5J
+pDOA09XSPARVnojhdjiZvgB3AO7Ale6NcmQPkuPDuRvHEqNpagl7S2oaFDjmR7LL
+7cX5AAABek/7cDIAAAQDAEgwRgIhAJ3GTB+wYVunZKFopsGoJxLpVRNS7UgeJCZi
+kx/OIhdmAiEA+ELweMNSYJ5d+EKKP/YWld3XzVJq7K2CwQm+1NIkE8EwDQYJKoZI
+hvcNAQELBQADggEBAKmVHDK0P/t+kvDE9sFC4Hv93pmGb5kAONFPyOfzTbD2Z6B8
+Q97bFbyXapH9xVRXg1EiaYKXuIniMnAPtYm2K7bGqCnHux+QARgG3foySAog3tkp
+y6j9AITpYXyIQkk0NUJT9SoBbdokL56v1Jh2pDvkj1dI7xgys3MU5eE3wRSqg210
+RzYU928nINf6NiyOFD6Umjc0nFtpzEoVEdgIl7Q/xFbJM+OhBg9tKmv+u7cWrcWz
+rnVApNn1uFyZXW3U5UbpDt7zAVSBXClYkD68iDgYR6gVowslGZfYttnjPgRtG+Mn
+Uk4MqA66BLCSGy/HTGhcOGba+KXKfN/doSd8HxE=
+-----END CERTIFICATE-----
+subject=C = US, ST = California, L = Sunnyvale, O = Oath Inc, CN = legacy.pop.mail.yahoo.com
+
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert SHA2 High Assurance Server CA
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 4027 bytes and written 400 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: BDA589C371A3B56E6698A2C5D51B903E1BB78D1A111318F7A90C8E33FA8FA59D
+    Session-ID-ctx:
+    Resumption PSK: AE0CFBC2D0AED5BE71A53B55D76DFC8C56A9D540E4D31924E9E9D1A454E738519E7249DD5A68097E416EE2B6B3FE67DF
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 60 (seconds)
+    TLS session ticket:
+    0000 - fe 35 13 c3 82 62 45 3a-d5 c3 2b 15 8f 3f cd 9f   .5...bE:..+..?..
+    0010 - 60 3e 93 c1 f2 75 65 58-58 69 1c d8 59 34 cd 76   `>...ueXXi..Y4.v
+
+    Start Time: 1634943645
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 5006B0A6EE478A88B1F02DF4CF576D74C8F30E7C7247A8DA351B0024007A6BFF
+    Session-ID-ctx:
+    Resumption PSK: 16948F9CB9D04C0CE6C5C5BACD593ADB0F0DA60485E3D70AF3B215FB9E210E423523E83921031858BE2DAC9DF4868816
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 60 (seconds)
+    TLS session ticket:
+    0000 - d1 e9 51 a9 5d 4b e0 25-6c 64 f3 de da ee f0 9d   ..Q.]K.%ld......
+    0010 - a1 75 8c 42 44 d7 bc 1f-ba 22 ad 5c b7 10 58 1f   .u.BD....".\..X.
+
+    Start Time: 1634943645
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
++OK Hello from jpop-0.1
+^C

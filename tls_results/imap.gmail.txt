@@ -1,0 +1,149 @@
+mrc621@LAPTOP-JF5I6F1J:/mnt/c/WINDOWS/system32$ openssl s_client -connect imap.gmail.com:993
+CONNECTED(00000005)
+depth=2 C = US, O = Google Trust Services LLC, CN = GTS Root R1
+verify return:1
+depth=1 C = US, O = Google Trust Services LLC, CN = GTS CA 1C3
+verify return:1
+depth=0 CN = imap.gmail.com
+verify return:1
+---
+Certificate chain
+ 0 s:CN = imap.gmail.com
+   i:C = US, O = Google Trust Services LLC, CN = GTS CA 1C3
+ 1 s:C = US, O = Google Trust Services LLC, CN = GTS CA 1C3
+   i:C = US, O = Google Trust Services LLC, CN = GTS Root R1
+ 2 s:C = US, O = Google Trust Services LLC, CN = GTS Root R1
+   i:C = BE, O = GlobalSign nv-sa, OU = Root CA, CN = GlobalSign Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIEhzCCA2+gAwIBAgIRAI5sOkPIwRlDCgAAAAEIrX4wDQYJKoZIhvcNAQELBQAw
+RjELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBM
+TEMxEzARBgNVBAMTCkdUUyBDQSAxQzMwHhcNMjExMDA0MDIxMjAzWhcNMjExMjI3
+MDIxMjAyWjAZMRcwFQYDVQQDEw5pbWFwLmdtYWlsLmNvbTBZMBMGByqGSM49AgEG
+CCqGSM49AwEHA0IABC8eJXg5d0tuSV2XKhyV0q1QxUT7CiVvOaJdDV3Bf1IT75jL
+nbios/2Wb9QdJGcCfo4RrwkfTDxdW9cPs5rZw82jggJmMIICYjAOBgNVHQ8BAf8E
+BAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+FgQUcLJClcGbmhSH5oXAfuc4mKyS7bowHwYDVR0jBBgwFoAUinR/r4XN7pXNPZzQ
+4kYU83E1HScwagYIKwYBBQUHAQEEXjBcMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+cC5wa2kuZ29vZy9ndHMxYzMwMQYIKwYBBQUHMAKGJWh0dHA6Ly9wa2kuZ29vZy9y
+ZXBvL2NlcnRzL2d0czFjMy5kZXIwGQYDVR0RBBIwEIIOaW1hcC5nbWFpbC5jb20w
+IQYDVR0gBBowGDAIBgZngQwBAgEwDAYKKwYBBAHWeQIFAzA8BgNVHR8ENTAzMDGg
+L6AthitodHRwOi8vY3Jscy5wa2kuZ29vZy9ndHMxYzMvbW9WRGZJU2lhMmsuY3Js
+MIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHYA7sCV7o1yZA+S48O5G8cSo2lqCXtL
+ahoUOOZHssvtxfkAAAF8SUl6YgAABAMARzBFAiEAxzq8ZpJiOCZJ+7RQskapcoVG
+ZDDaSFLCs5FC56HnrycCIGMdNZgy2MvQGdg7Il2MQxcAcP2crUvFeuCL06v5OjI+
+AHUA9lyUL9F3MCIUVBgIMJRWjuNNExkzv98MLyALzE7xZOMAAAF8SUl6WQAABAMA
+RjBEAiAjib8t8tJguFZ713ApAWYasEO8DVXwBatJQ59HBT/ORQIgXiDb8OTlgXH0
+jB1/9kRiGIrOsODFIl8ECqoR3Pv0VkEwDQYJKoZIhvcNAQELBQADggEBADrQ9nR9
+x1+FzA/fdbps/UhNvW6AgXz467IszLKrdC4H2pjbhygzMhJuKx/QBvstSRcvdyOV
+7dAlvnM7ugo3hcAaZnZiwiRSGplWb8y7GBras/SN6a/FUL1r0yc6PYWkx4YpRRAc
+Ua8qzPs9YspZlFBnoVwe7s0eGdBQt29vJohUZHIjRmnDOIGkvcC5O/8zvmdBY08E
+kB5kk/0z1AHEq6Pq1TfgkcjPy24tx8lYYiKPvxYFYQwSL58h3MASTjqnvWeIWuHH
+IFzGH+q95oOlrrX1nxpnlCGQxEAakg3j9jXOTyG40PUks4carXUeMd9nodHBXFlp
+udQp+UroyaeUwtA=
+-----END CERTIFICATE-----
+subject=CN = imap.gmail.com
+
+issuer=C = US, O = Google Trust Services LLC, CN = GTS CA 1C3
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ECDSA
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 4294 bytes and written 396 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 14E2E4EE2DA9AFF4EEA0B6909F276D299F318313EDBF00FB2E1E379B5AB74650
+    Session-ID-ctx:
+    Resumption PSK: 3A6FE5ACBF6FABCBCAFFE3CE255FC77A6088E6B2FD938D4315D6B0F28A3DBFBA9F314B3135A63F316CEC65C40A369F11
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 172800 (seconds)
+    TLS session ticket:
+    0000 - 01 81 70 7f 17 6e 28 36-2f 0c 47 65 29 28 fd 58   ..p..n(6/.Ge)(.X
+    0010 - 5c 59 b9 51 73 a6 68 1a-8a 9e 54 73 22 4d 6f 91   \Y.Qs.h...Ts"Mo.
+    0020 - 90 af 93 c5 f3 29 82 47-2f a8 9c 7f b5 a3 b1 50   .....).G/......P
+    0030 - 0e f8 e3 2e 66 97 47 fe-43 1b 10 28 ec 86 c7 f1   ....f.G.C..(....
+    0040 - 7f e5 53 09 e6 6c 04 9d-8c f6 e9 1b 96 fe 5a df   ..S..l........Z.
+    0050 - b1 5d 1c c7 a0 1c 38 34-b8 a6 02 bb 3a 90 20 01   .]....84....:. .
+    0060 - 31 f4 a1 ac b4 d3 54 f6-5f d2 5f 02 52 ec 82 e6   1.....T._._.R...
+    0070 - e4 d1 32 39 af c3 d8 e3-f0 bc 82 28 fc 42 cd 66   ..29.......(.B.f
+    0080 - 75 c4 e9 99 a2 03 cf 2f-62 8e 09 88 a8 df b4 6b   u....../b......k
+    0090 - 48 3c 5b 39 61 5b c6 87-75 5a d0 0a c6 e4 ab d9   H<[9a[..uZ......
+    00a0 - a5 fc ea 88 c8 2f 01 ec-6b 6c 27 b6 bf a3 a0 ef   ...../..kl'.....
+    00b0 - 6c 4e fc 62 89 fd 72 38-86 99 39 db 8f 60 a1 45   lN.b..r8..9..`.E
+    00c0 - b8 3f 05 3d 34 91 53 2b-fc 51 f5 94 f5 d0 66 8f   .?.=4.S+.Q....f.
+    00d0 - 02 fd a1 a9 d2 e0 37 fc-9b 87 e2 81 8a 1c c7 7d   ......7........}
+    00e0 - 95 37 87 11 3e 7c e7 75-30 0b d0 a2               .7..>|.u0...
+
+    Start Time: 1634943481
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 0CC2ADB591AF6952346178C7B337635666CF95B2A24A1F473016AA04EF7BBFAC
+    Session-ID-ctx:
+    Resumption PSK: 9412868760A5C1BAF60F73B4C2F785B3E14B4DF755488B2D92A79DA35A36718E5AD7962CBCDCE0474E19FF9DE4964633
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 172800 (seconds)
+    TLS session ticket:
+    0000 - 01 81 70 7f 17 6e 28 36-2f 0c 47 65 29 28 fd 58   ..p..n(6/.Ge)(.X
+    0010 - fe 74 c1 35 61 d2 12 12-1d ba 9b dd 22 a5 eb 10   .t.5a......."...
+    0020 - ab 80 d1 06 06 43 b6 c4-14 fc a3 e4 a1 fd 9c 12   .....C..........
+    0030 - 16 a3 b7 18 ab 48 e3 5c-cc 3f e8 f3 3b ac c1 7b   .....H.\.?..;..{
+    0040 - 72 30 54 0d d2 14 32 64-9c 4c 69 e2 bf 4a 29 d4   r0T...2d.Li..J).
+    0050 - 01 e8 3e 29 d2 77 e0 1a-15 7a 8f ea e5 7d 05 dc   ..>).w...z...}..
+    0060 - 1c ed 7e a3 0d 08 62 8e-64 e0 77 b8 7d c3 82 d2   ..~...b.d.w.}...
+    0070 - 7f 1f d5 1a 92 c4 f8 a7-5d de 9c 19 ce 6f 62 94   ........]....ob.
+    0080 - 2e b9 88 41 49 33 c4 ed-fa 8a 63 ea df d4 40 f2   ...AI3....c...@.
+    0090 - ce 36 63 40 08 a2 82 77-e5 cb b9 34 20 0d cb 92   .6c@...w...4 ...
+    00a0 - 3e 91 2c 55 ab d8 ab d3-f4 63 24 00 94 2f bf 22   >.,U.....c$../."
+    00b0 - ab b4 0b 17 55 cd fb 1e-ab 51 d4 40 78 1d b9 ae   ....U....Q.@x...
+    00c0 - ab 9b 11 b2 2c 50 23 93-f4 d0 63 d1 97 41 9f 83   ....,P#...c..A..
+    00d0 - a4 0c e2 5e bf 71 fc 99-82 62 e6 fe 44 c2 a4 91   ...^.q...b..D...
+    00e0 - a4 f3 8e a3 1a f1 23 87-01 80 56 cc               ......#...V.
+
+    Start Time: 1634943481
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+* OK Gimap ready for requests from 66.219.235.108 d26mb250242350oti
+
+
+
+
+
+
+
+
+
